@@ -1,0 +1,340 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* background-color: lightslategray; */
+}
+
+body {
+    font-family: calibri;
+
+}
+
+header {
+    /* background-color: aqua; */
+}
+
+.ClearPath {
+    clear: both;
+}
+
+/* footer{
+    height: 10%;
+    background-color: cadetblue;
+} */
+
+.Banner-Class {
+    background-image: url("images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 320px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.Banner-Class p {
+    padding: 0px 180px;
+    font-weight: bold;
+}
+
+
+
+
+.page-formate {
+    width: 90%;
+    margin: 0% 5%;
+    margin-bottom: 60px;
+    text-align: center;
+    /* background-color:lightcoral; */
+
+}
+
+.nav-item-left {
+    margin: 0px;
+    float: left;
+
+    /* background-color: blue; */
+}
+
+.nav-items-right {
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+
+    /* background-color: aquamarine; */
+
+}
+
+.nav-items-right ul {
+    margin: 0%;
+    padding: 0px;
+    list-style: none;
+    display: inline-flex;
+}
+
+.nav-items-right ul li {
+    padding: 10px;
+}
+
+.nav-items-right ul li:hover {
+    border: 1px solid grey;
+}
+
+.nav-items-right ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#banner-image {
+    width: 100%;
+}
+
+.heading-text {
+
+    text-align: center;
+}
+
+.heading-text p {
+    margin-bottom: 35px;
+}
+
+.link-style {
+
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    size: 14px;
+    padding: 10px 30px;
+    background-color: #b4d422;
+    border-radius: 8%;
+}
+
+.Service-block {
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    /* border: 1px solid grey; */
+    /* border-radius: 5%; */
+    width: 23%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 30px;
+    /* background-color: cadetblue; */
+}
+
+.inner-service-blc {
+    text-align: left;
+
+}
+
+.inner-service-blc h3 {
+    padding: 5% 0%;
+    /* background-color: bisque; */
+}
+
+.inner-service-blc p {
+    font-size: 13px;
+}
+
+.Service-Img {
+    width: 100%;
+}
+
+.Seperator-Line {
+    width: 90%;
+    margin: 5% 5%;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 0.7px lightgray solid;
+}
+
+.label-value {
+    color: grey;
+    font-size: small;
+}
+
+.AboutUs-Content {
+    float: left;
+    width: 64%;
+    text-align: left;
+    padding: 46px;
+}
+
+.AboutUs-Content h1 {
+    padding-right: 250px;
+    padding-top: 30px;
+}
+
+.AboutUs-Content p {
+    padding-top: 40px;
+    padding-right: 100px;
+    font-size: 14px;
+}
+
+.AboutUs-Img {
+    float: right;
+}
+
+.Findout-More {
+    margin-top: 80px;
+}
+
+.Findout-More a {
+
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+.Question-Banner {
+    background-image: url("images/qurestions-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110% 100%;
+    height: 400px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.Question-Banner h1 {
+    font-size: 40px;
+}
+
+.Question-Banner p {
+    padding: 10px 380px;
+}
+
+.Findout-More-Question {
+    margin-top: 50px;
+}
+
+.Findout-More-Question a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 12px 22px;
+    background-color: rgb(235, 235, 21);
+    border-radius: 3px;
+
+}
+
+.Table-Heading {
+    text-align: left;
+    padding: 5px;
+}
+
+.Table-Content {
+    margin-top: 10px;
+    /* background-color:#b4d422; */
+}
+
+.Table-Content table {
+    width: 100%;
+    border: none;
+}
+
+
+.Table-Content table th {
+    background-color: #ddd;
+    border-bottom: 1px black solid;
+}
+
+.Table-Content table th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+.Table-Content table td {
+    border-bottom: 1px solid #ddd;
+}
+
+
+.Form-Section table {
+    width: 100%;
+    border: none;
+
+}
+
+.Form-Section table td {
+    width: 50%;
+    padding: 0px;
+    /* background-color: aqua; */
+}
+
+.ContactUs-details{
+    margin: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+}
+
+.ContactUs-details p,
+h5,
+ol {
+    padding: 10px 0px;
+}
+
+.ContactUs-details ol {
+    padding-left: 14px;
+}
+
+.ContactUs-Form {
+    text-align: justify;
+    padding-right: 40px;
+    /* background-color: burlywood; */
+}
+
+.ContactUs-Form form input[type=text],
+input[type=email],
+input[type=date] {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.ContactUs-Form form select{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.ContactUs-Form form input[type=checkbox]{
+    margin: 0px 20px 20px 0px;    
+}
+
+#org{
+    margin-left: 20px;
+}
+
+.ContactUs-Form form input[type=button]{
+    background-color: #b4d422;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+footer h6{
+    background-color: black;
+    color: lightgray;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+footer div{
+    background-color: lightgray;
+    padding: 40px 150px;
+}
+
+footer div h4, p, a{
+    margin: 10px 0px;
+}
+
+#view-on-google{
+    color: darkcyan;
+}
